@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="sub-header">
+            <div>
+                <h2>Personal Blogging App</h2>
+            </div>
+            <div class="profileSection">
+            <p class="profileText">HOME</p>
+            <!-- <p class="profileText">HOME</p> -->
+
+                <button class="profileText" id="btn">Logout</button>
+                
+            </div>
+        </div>
+    </div>
+    <h1 class="dashboardText">Dashboard</h1>
+    <div class="dashboardContainer">
+        <div class="inputSection">
+            <div>
+                <input type="text" placeholder="title" id="title">
+            </div>
+            <div>
+                <textarea placeholder="Desc" id="Desc"></textarea>
+            </div>
+        </div>
+        <div class="btnSection">
+            <button type="button" id="Addpost">Add publish blogs</button>
+        </div>
+    </div>
+     
+    <!-- <h1 class="dashboardText">My Blog</h1>
+    
+    <ul id="ulParent" class="list-group mt-4">
+        <li class="list-group-item d-flex align-items-center justify-content-between">An item
+
+
+            <div>
+                <button class="btn btn-info">EDIT</button>
+                <button class="btn btn-danger">DEL</button>
+
+            </div>
+
+
+        </li>
+
+    </ul> -->
+    <h1 class="dashboardText">My Blog</h1>
+    <div class="blogContainer2" id="blogCont">
+        <div class="blogContainer">
+            <div>
+                <img src="4232f97a3123867b1fbec910d4e28b0f.jpg" height="150px" width="150px">
+            </div>
+            <div>
+                <h2>An action Button Could be Comming To the Iphone 15</h2>
+                <div>
+                    <h4 >Huraira</h4>
+                    <h4>August 16th,2023</h4>
+                </div>
+            </div>
+        </div>
+        <div class="blogText">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis iusto similique nisi ratione ipsa
+                dignissimos provident earum inventore possimus corporis eaque quia consequatur quidem illo, fuga placeat
+                neque eveniet laudantium? <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis iusto similique nisi ratione ipsa
+                dignissimos provident earum inventore possimus corporis eaque quia consequatur quidem illo, fuga placeat
+                neque eveniet laudantium?
+            </p>
+        </div>
+        <div class="btnDiv">
+            <button type="button" id="dltBtn ">Delete</button>
+            <button type="button" id="editBtn">Edit</button>
+        </div>
+    </div>
+
+</body>
+<script type="module" src="dashboard.js"></script>
+</html>
